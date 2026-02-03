@@ -566,7 +566,7 @@ nav .nav-link:hover::after {
   width: 100%;
   height: 300px;
   object-fit: cover;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .job{
    padding: 0 0 90px 0;
@@ -586,7 +586,7 @@ nav .nav-link:hover::after {
   width: 100%;
   height: 300px;
   object-fit: cover;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .cv{
    padding: 0 0 90px 0;
@@ -606,7 +606,7 @@ nav .nav-link:hover::after {
   width: 100%;
   height: 300px;
   object-fit: cover;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .card-part{
    padding-bottom: 80px;
@@ -641,7 +641,5 @@ nav .nav-link:hover::after {
  .copy-right p{
   font-size: 10px;
  }
-
-
 
  }
