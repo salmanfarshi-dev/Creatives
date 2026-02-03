@@ -20,19 +20,35 @@ h3{
   font-weight: 700;
   color: #2D3142;
 }
-h4{
+.skills h4, 
+.commercial h4, 
+.job h4, 
+.network h4, 
+.cv h4, 
+.carrer h4{
    font-size: 32px;
   font-weight: 800;
   color: #1E212C;
   
 }
-p{
+.skills p, 
+.commercial p, 
+.job p, 
+.network p, 
+.cv p, 
+.carrer p{
    font-size: 16px;
   font-weight: 400;
   color: #787A80; 
   margin: 16px 0 48px 0;
 }
-a{
+.skills a, 
+.commercial a, 
+.job a, 
+.network a, 
+.cv a, 
+.carrer a,
+.top-part a{
    padding: 16px 36px;
    background-color: #F44335;
    border-radius: 8px;
@@ -48,7 +64,13 @@ a:hover{
     border-color: rgba(32, 72, 79, 0.1);
     color: black;
 }
-span{
+.skills span, 
+.commercial span, 
+.job span, 
+.network span, 
+.cv span, 
+.carrer span,
+.top-part span{
    font-size: 18px;
   font-weight: 400;
   color: #000000; 
@@ -141,6 +163,7 @@ nav .nav-link:hover::after {
 .banner h1 span {
   color: #f44335;
   text-decoration: underline;
+  
 }
 .banner p {
   font-size: 24px;
@@ -376,7 +399,7 @@ nav .nav-link:hover::after {
  /* footer section start */
  .footer{
   padding: 60px 0 68px 0;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
  }
  .footer .image-menu img{
   margin-bottom: 24px;
@@ -414,3 +437,211 @@ nav .nav-link:hover::after {
   font-weight: 400;
  }
  /* footer section end */
+
+ @media (min-width:320px) and (max-width:575.99px){
+  
+  h3{
+   font-size: 34px;
+}
+.skills h4, 
+.commercial h4, 
+.job h4, 
+.network h4, 
+.cv h4, 
+.carrer h4{
+   font-size: 28px;
+  
+}
+.skills p, 
+.commercial p, 
+.job p, 
+.network p, 
+.cv p, 
+.carrer p{
+   font-size: 12px;
+}
+.skills a, 
+.commercial a, 
+.job a, 
+.network a, 
+.cv a, 
+.carrer a,
+.top-part a{
+   padding: 12px 18px;
+   font-size: 14px;
+}
+  
+  
+  .banner {
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+.banner h6 {
+  font-size: 12px;
+}
+.banner h1 {
+  font-size: 34px;
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+.banner p {
+  font-size: 18px;
+  width:100%;
+  margin: 47px 0;
+}
+.banner .signUp {
+  padding: 12px 18px;
+  background-color: #f44335;
+  font-size: 14px;
+}
+.banner .Learn {
+  padding: 12px 18px;
+  font-size: 14px;
+}
+.banner img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 50px;
+}
+.collaboretion p{
+  font-size: 18px;
+}
+.collaboretion .logo-part{
+   flex-direction: column;
+   gap: 80px;
+}
+.problem-solving{
+   padding: 50px 0 20px 0;
+   background-color: #FAFAFA;
+}
+.problem-solving .text-part h2{
+   font-size: 25px;
+}
+.problem-solving .text-part p{
+   font-size: 12px;
+  margin-top: 18px;
+}
+.problem-solving .Persentic{
+   margin-top: 30px;
+   text-align: center;
+}
+.problem-solving .Persentic span{
+   font-size: 12px;
+}
+
+.problem-solving .Persentic p{
+  text-align: centere;
+   font-size: 12px;
+  width: 100%;
+}
+
+.work img{
+  display: none;
+}
+.work{
+   min-height: 250px;
+}
+.work .contant-part{
+  padding-top: 80px;
+}
+.work .contant-part p{
+   font-size: 1px;
+}
+.skills{
+   padding: 100px 0 90px 0;
+   text-align: center;
+}
+.skills img{
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+  object-fit: cover;
+}
+.commercial{
+   padding: 0 0 90px 0;
+   text-align: center;
+ }
+.commercial img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 50px;
+}
+.job{
+   padding: 0 0 90px 0;
+   text-align: center;
+ }
+.job img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 50px;
+}
+.network{
+   padding: 0 0 90px 0;
+   text-align: center;
+ }
+.network img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 50px;
+}
+.cv{
+   padding: 0 0 90px 0;
+   text-align: center;
+ }
+.cv img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 50px;
+}
+.carrer{
+   padding: 0 0 90px 0;
+   text-align: center;
+ }
+.carrer img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 50px;
+}
+.card-part{
+   padding-bottom: 80px;
+ }
+ 
+ .card-part .top-part{
+  flex-direction: column;
+  text-align: center;
+ }
+ .card-part .first{
+  margin-bottom: 30px;
+  margin-top: 30px;
+ }
+ .card-part .cards.part{
+  transform: translateY(20px);
+  
+ }
+ .footer .menu-itemS{
+  margin-top: 50px;
+  
+ }
+ .footer .image-menu li{
+  font-size: 12px;
+ }
+ .footer .menu-itemS h6{
+  font-size: 14px;
+ }
+ .footer .menu-itemS li{
+  font-size: 12px;
+ }
+
+ .copy-right p{
+  font-size: 10px;
+ }
+
+
+
+ }
